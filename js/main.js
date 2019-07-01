@@ -5,13 +5,13 @@ var obj =
      {
         lang:"JavaScript",
         prog:"programming",
-        language:function()
+        language:function(lang)
         {
-            document.writeln(lang+ ' is a popular '+prog+' language.');
+            document.writeln(lang+ ' is a popular '+this.prog+' language.');
         }
     };
 
 
 obj.language();
-obj.language();
+obj.language("php");
 
